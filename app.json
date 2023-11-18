@@ -19,11 +19,11 @@
       },
       "BOT_USERNAME": {
          "description": "Username of your bot with @, example: `@WhisperXRobot`.",
-         "value": "@WhisperXRobot"
+         "value": ""
       },
       "BOT_NAME": {
          "description": "Name of your bot, example: `Whisper Bot`",
-         "value": "Whisper Bot"
+         "value": ""
       }
     },
     "buildpacks": [
@@ -34,7 +34,7 @@
     "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
